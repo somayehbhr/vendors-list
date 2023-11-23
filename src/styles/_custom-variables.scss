@@ -1,0 +1,42 @@
+$colors: (
+  'black': #000,
+  'white': #ffffff,
+  'gray': #707070,
+  'primary': #194b9b,
+  'secondary': #e6165d,
+  'success': #52a262,
+  'warning': #feefb3,
+  'error': #d8000c,
+  'disabled': #7190c1,
+);
+
+$font-sizes: (
+  0: 0.5rem,
+  // 8px
+  1: 0.625rem,
+  // 10px
+  2: 0.75rem,
+  // 12px
+  3: 0.875rem,
+  // 14px
+  4: 1rem,
+  // 16px
+  5: 1.25rem,
+  // 20px
+  6: 1.5rem,
+  // 24px
+  7: 2rem,
+  // 32px
+  8: 2.5rem,
+  // 40px
+);
+
+$font-weights: (
+  '400': 400,
+  '500': 500,
+  '600': 600,
+  '700': 700,
+  '800': 800,
+  'bold': bold,
+);
+
