@@ -1,13 +1,14 @@
 $colors: (
-  'black': #000,
-  'white': #ffffff,
-  'gray': #707070,
-  'primary': #194b9b,
-  'secondary': #e6165d,
-  'success': #52a262,
-  'warning': #feefb3,
-  'error': #d8000c,
-  'disabled': #7190c1,
+  "black": #000,
+  "white": #ffffff,
+  "gray": #707070,
+  "gray-1": #00000010,
+  "primary": #194b9b,
+  "secondary": #e6165d,
+  "success": #52a262,
+  "warning": #feefb3,
+  "error": #d8000c,
+  "disabled": #7190c1,
 );
 
 $font-sizes: (
@@ -32,11 +33,10 @@ $font-sizes: (
 );
 
 $font-weights: (
-  '400': 400,
-  '500': 500,
-  '600': 600,
-  '700': 700,
-  '800': 800,
-  'bold': bold,
+  "400": 400,
+  "500": 500,
+  "600": 600,
+  "700": 700,
+  "800": 800,
+  "bold": bold,
 );
-

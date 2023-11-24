@@ -1,15 +1,18 @@
-@import './_custom-variables.scss';
-
-:root {
-
-}
+@import "./_custom-variables.scss";
+@import "fonts";
 
 html,
 body {
-
+  margin: 0;
+}
+* {
+  font-family: IRANSans, Roboto, Tahoma, serif;
 }
 
-body {
-
+.center-in-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
-

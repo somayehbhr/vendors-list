@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "src/styles/globals.scss";
-import ReduxProvider from "@/redux/provider";
+import "@/styles/globals.scss";
 import { ReactNode } from "react";
+import ReduxProvider from "@/redux/provider";
 
 export const metadata: Metadata = {
   title: "Snapp food",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="fa" dir="rtl">
       <body>
         <ReduxProvider>{children}</ReduxProvider>
       </body>

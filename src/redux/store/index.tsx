@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { restaurantsSlice } from "@/redux/store/restaurants";
+import { vendorsReducer } from "@/redux/store/vendors";
+import { counterSlice } from "@/redux/store/counter";
 
 export const store = configureStore({
   reducer: {
-    items: restaurantsSlice.reducer,
+    vendors: vendorsReducer.reducer,
+    pageNumber: counterSlice.reducer,
   },
 });

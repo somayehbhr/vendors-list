@@ -1,3 +1,60 @@
 .card {
+  width: 90%;
+  margin: 0 auto 16px auto;
+  font-size: map-get($font-sizes, 2);
+  box-shadow: 0 2px 12px 0 map-get($colors, "gray-1");
+  border-radius: 8px;
+  &__background {
+    position: relative;
+    height: 114px;
+    &__logo {
+      z-index: 2;
+      position: absolute;
+      bottom: -10px;
+      right: 10px;
+      border-radius: 100%;
+      object-fit: cover;
+      box-shadow: 0 2px 12px 0 map-get($colors, "gray-1");
+    }
+    &__image {
+      object-fit: contain;
+      border-radius: 8px 8px 0 0;
+    }
+  }
+  &__details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+    justify-content: space-between;
+    row-gap: 4px;
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      &__title {
+        font-weight: map-get($font-weights, '500');
+      }
+      &__ratings {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        column-gap: 5px;
+        &__number {
+          background: map-get($colors, "success");
+          padding: 0 8px;
+          border-radius: 4px;
+          color: map-get($colors, "white");
+        }
+        &__voteCount {
+          font-size: map-get($font-sizes, 1);
+          color: map-get($colors, "gray");
+        }
 
+      }
+    }
+    &__deliveryType{
+      color: map-get($colors, "gray");
+      margin-left: 3px;
+    }
+  }
 }

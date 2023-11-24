@@ -205,10 +205,12 @@ export type MetaTags = {
   description: string;
 };
 
+export type TFinalResult = { type: "VENDOR" | "TEXT"; data: TRestaurant }[];
+
 export type MainData = {
   count: number;
   open_count: number;
-  finalResult: { type: "VENDOR" | "TEXT"; data: TRestaurant }[]; // Adjust this based on the actual data structure
+  finalResult: TFinalResult;
   extra_sections: TExtraSections;
   meta_tags: MetaTags;
 };

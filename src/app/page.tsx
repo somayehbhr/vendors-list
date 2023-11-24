@@ -1,14 +1,15 @@
 "use client";
-import styles from "./page.module.scss";
 
 import React from "react";
-
-import { VendorsList } from "@/containers/VendorsList";
+import { useRouter } from "next/navigation";
+import { Button } from "@/components/Button";
 
 export default function Home() {
+  const { push } = useRouter();
+
   return (
-    <main className={styles["main"]}>
-      <VendorsList />
+    <main className="center-in-page">
+      <Button onClick={() => push("/restaurants")}>رستوران ها</Button>
     </main>
   );
 }
