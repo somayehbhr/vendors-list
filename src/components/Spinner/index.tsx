@@ -1,4 +1,4 @@
-import styles from "./spinner.module.scss";
+import styles from "./styles.module.scss";
 
 const Spinner = ({ fontSize = "5px" }) => {
   return (
