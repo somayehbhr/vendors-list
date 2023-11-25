@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { VendorsList } from "@/app/restaurants/containers/VendorsList";
+import { VendorsList } from "@/containers/VendorsList";
 
 /**
  * `Restaurants` is a React component that serves as a wrapper for the `VendorsList` component.

@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { Card } from "@/components/Card";
-import { useGetVendors } from "@/app/restaurants/containers/VendorsList/hooks/useGetVendors";
-import styles from "./styles.module.scss";
+import { useGetVendors } from "@/containers/VendorsList/hooks/useGetVendors";
+import styles from "src/app/containers/VendorsList/styles.module.scss";
 import { Virtuoso } from "react-virtuoso";
 import Spinner from "@/components/Spinner";
 
